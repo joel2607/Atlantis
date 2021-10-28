@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Atlantis: Login</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jquerycookie/jquery.cookie.js"></script>
+        <script src="script.js"></script>
+        <div class = "topbar">
+            <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+            <div class = "topbar">
+                <div class = "login">
+                    <button class="btn" onclick="window.location.href='signup.html';">Sign Up</button>
+                    <button class="btn" onclick="window.location.href='login.html';" >Login</button>
+                </div>
+                <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+            </div>
+        </div>
+        <div class = "logindiv">
+
+
+            <form id="loginform" action="/action_page.php">
+                <h2> Login </h1><br>
+                Username: <input type="text" name="usrname"><br>
+                Password: <input type="password" name="pwd">
+                <label for="togglePassword">show password</label>
+                <input type="checkbox" onclick = "showloginpw();"><br><br>
+                <input  class = "loginbtn" type="button" onclick="login();" value="Login">
+            </form>
+            <p style= "color:red;margin: 20px;    padding:20px;" id = "loginerror"></p>
+        </div>
+
+    </body>
+</html>

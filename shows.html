@@ -1,0 +1,84 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadpage();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn" >Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "https://streamingwars.com/wp-content/uploads/2020/12/brooklyn_nine_nine.jpg">
+                <p class = "item-description"> Brooklyn Nine-Nine </p>
+                <p class = "item-price"> &#X20B9; 75</p>
+                <button class = "add2cart" onclick = "addcart('Brooklyn Nine-Nine',75);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://www.nme.com/wp-content/uploads/2021/04/loki-2000x1270-1.jpg">
+                <p class = "item-description"> Loki </p>
+                <p class = "item-price"> &#X20B9; 75</p>
+                <button class = "add2cart" onclick = "addcart('Loki',75);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://2.bp.blogspot.com/-VXvWH8cspyA/Wj5tmBu9pXI/AAAAAAAADEg/iJAdFrfKu4kHWGsFZ-YvVVYGvAUql6oAgCLcBGAs/s1600/Steins%252CGate%2BAnime.png">
+                <p class = "item-description"> Steins;gate</p>
+                <p class = "item-price"> &#X20B9; 75</p>
+                <button class = "add2cart" onclick = "addcart('Steins;gate',75);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://www.thathashtagshow.com/wp-content/uploads/2020/08/altered-carbon-poster-1.jpg"> 
+                <p class = "item-description"> Altered Carbon </p>
+                <p class = "item-price"> &#X20B9; 75</p>
+                <button class = "add2cart" onclick = "addcart('Altered Carbon',75);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://freakelitex.com/wp-content/uploads/2017/07/The-Disastrous-Life-of-Saiki-K.-2n-season.jpg">
+                <p class = "item-description"> The Disastrous life of Saiki Kusuo</p>
+                <p class = "item-price"> &#X20B9; 75</p>
+                <button class = "add2cart" onclick = "addcart('The Disastrous life of Saiki Kusuo,75);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://static.highsnobiety.com/thumbor/Be530Ob8QTa6U2zPM90eZYuU4Fs=/1600x1067/static.highsnobiety.com/wp-content/uploads/2019/10/08114400/breaking-bad-main.jpg">
+                <p class = "item-description"> Breaking Bad </p>
+                <p class = "item-price"> &#X20B9; 75</p>
+                <button class = "add2cart" onclick = "addcart('Breaking Bad',75);">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>

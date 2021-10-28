@@ -1,0 +1,84 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadpage();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn" >Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/71AmKW4yuMS._AC_SL1500_.jpg">
+                <p class = "item-description"> Acer Aspire 5 A515-46-R14K Slim Laptop </p>
+                <p class = "item-price"> &#X20B9; 25,999</p>
+                <button class = "add2cart" onclick = "addcart('Acer Aspire 5 A515-46-R14K Slim Laptop',25999);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/71KVeQql77S._SL1500_.jpg">
+                <p class = "item-description"> OnePlus Nord 2 (8GB RAM, 128GB Storage) </p>
+                <p class = "item-price"> &#X20B9; 29,999</p>
+                <button class = "add2cart" onclick = "addcart('OnePlus Nord 2 (8GB RAM, 128GB Storage)',29999);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg">
+                <p class = "item-description"> OnePlus 80 cm (32 in) LED Smart Android TV</p>
+                <p class = "item-price"> &#X20B9; 18,999</p>
+                <button class = "add2cart" onclick = "addcart('OnePlus 80 cm (32 in) LED Smart Android TV',18999);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/712BkevVVPL._SL1500_.jpg">
+                <p class = "item-description"> Samsung Galaxy Watch - Silver </p>
+                <p class = "item-price"> &#X20B9; 18,990</p>
+                <button class = "add2cart" onclick = "addcart('Samsung Galaxy Watch - Silver',18990);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/81cEKnH692L._SL1500_.jpg">
+                <p class = "item-description"> Canon EOS 200D II 24.1MP DSLR Camera</p>
+                <p class = "item-price"> &#X20B9; 52,990</p>
+                <button class = "add2cart" onclick = "addcart('Canon EOS 200D II 24.1MP DSLR Camera',52990);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/61EXU8BuGZL._SL1100_.jpg">
+                <p class = "item-description"> Echo Dot (3rd Gen) (Black) </p>
+                <p class = "item-price"> &#X20B9; 3,499</p>
+                <button class = "add2cart" onclick = "addcart('Echo Dot (3rd Gen) (Black)',3499);">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>

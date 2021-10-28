@@ -1,0 +1,84 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadpage();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn" >Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "https://3.bp.blogspot.com/-_UJ4Z4SxcdE/UCkyN38CdmI/AAAAAAAACDI/IMlHB10nv5Y/s1600/inception-full-movie-watch-online.jpg">
+                <p class = "item-description"> Inception </p>
+                <p class = "item-price"> &#X20B9; 100</p>
+                <button class = "add2cart" onclick = "addcart('Inception',100);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://freedomtvanydevice.com/tenet/img/main.jpg">
+                <p class = "item-description"> Tenet </p>
+                <p class = "item-price"> &#X20B9; 100</p>
+                <button class = "add2cart" onclick = "addcart('Tenet',100);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://i.redd.it/ygzg317syilx.png">
+                <p class = "item-description"> Your Name</p>
+                <p class = "item-price"> &#X20B9; 100</p>
+                <button class = "add2cart" onclick = "addcart('Kimi no na wa', 100);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://screenrant.com/wp-content/uploads/2018/04/Avengers-Infinity-War-poster.jpg">
+                <p class = "item-description"> Avengers: Infinity War </p>
+                <p class = "item-price"> &#X20B9; 100</p>
+                <button class = "add2cart" onclick = "addcart('Avengers: Infinity War',100);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://2.bp.blogspot.com/-XdQX5Mz7e00/WCTQNTte0SI/AAAAAAADgMc/nphkCIraZgofBlD1Kwv9Wh3f0zt4ZWSqwCLcB/s1600/moana-fallback_fde4d101.jpeg">
+                <p class = "item-description"> Moana</p>
+                <p class = "item-price"> &#X20B9; 100</p>
+                <button class = "add2cart" onclick = "addcart('Moana',100);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "http://www.cinepunch.in/wp-content/uploads/2015/09/Thani-Oruvan1.jpg">
+                <p class = "item-description">Thani Oruvan </p>
+                <p class = "item-price"> &#X20B9; 100</p>
+                <button class = "add2cart" onclick = "addcart('Thani Oruvan', 100);">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>

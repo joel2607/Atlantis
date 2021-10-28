@@ -1,0 +1,47 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadcart();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn" onclick="window.location.href='signup.html';">Sign Up</button>
+                <button class="btn" onclick="window.location.href='login.html';" id = "login">Login</button>
+            </div>
+            <button class="btn" onclick= '$.removeCookie("cart");window.location.reload();' height = 75>Clear Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "cartdiv" id = "cartdiv">
+            
+        </div>
+    </div>
+</body></html>

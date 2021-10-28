@@ -1,0 +1,84 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadpage();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn" >Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/41Vs5v2QC9L._AC_SY250_.jpg">
+                <p class = "item-description"> Fresh Capsicum - Red 250g </p>
+                <p class = "item-price"> &#X20B9; 64</p>
+                <button class = "add2cart" onclick = "addcart('Fresh Capsicum - Red 250g',64);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/4146lJ7h42L._AC_SY250_.jpg">
+                <p class = "item-description"> Fresh Potato (1kg) </p>
+                <p class = "item-price"> &#X20B9; 28</p>
+                <button class = "add2cart" onclick = "addcart('Fresh Potato (1kg)',28);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/41Kd4vfKCVL._AC_SY250_.jpg">
+                <p class = "item-description"> Heritage Milk Packet (500 ml)</p>
+                <p class = "item-price"> &#X20B9; 25</p>
+                <button class = "add2cart" onclick = "addcart('Heritage Milk Packet (500 ml)',25);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/41Y2eoT3OTL._AC_SY250_.jpg">
+                <p class = "item-description"> Fresh Banana (1 kg) </p>
+                <p class = "item-price"> &#X20B9; 69</p>
+                <button class = "add2cart" onclick = "addcart('Fresh Banana (1 kg)',69);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/51SUyCOGdZL._AC_SY250_.jpg">
+                <p class = "item-description"> Amul Butter Pasturised (500 g)</p>
+                <p class = "item-price"> &#X20B9; 227</p>
+                <button class = "add2cart" onclick = "addcart('Amul Butter Pasturised (500 g)',227);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/41KaUTVF-8L._AC_SY250_.jpg">
+                <p class = "item-description"> Dairy Milk crackle (36g) </p>
+                <p class = "item-price"> &#X20B9; 40</p>
+                <button class = "add2cart" onclick = "addcart('Dairy Milk crackle (36g)',40);">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>

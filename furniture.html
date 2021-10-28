@@ -1,0 +1,84 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadpage();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn" >Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/61vfcMQnjWL._SL1000_.jpg">
+                <p class = "item-description"> Herostyle 3 Seater Fabric Sofa Set (Grey-Black) </p>
+                <p class = "item-price"> &#X20B9; 12,595</p>
+                <button class = "add2cart" onclick = "addcart('Herostyle 3 Seater Fabric Sofa Set (Grey-Black)',12595);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/71mll93hQ4L._AC_UL320_.jpg">
+                <p class = "item-description"> King Size metal Bed (Black) </p>
+                <p class = "item-price"> &#X20B9; 11,249</p>
+                <button class = "add2cart" onclick = "addcart('King Size metal Bed (Black)',11249);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/51uHDQ9cXRL._AC_UL320_.jpg">
+                <p class = "item-description"> Modern Sofa 3 Seater blue</p>
+                <p class = "item-price"> &#X20B9; 28,999</p>
+                <button class = "add2cart" onclick = "addcart('Modern Sofa 3 Seater blue',28999);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/81WHe4gxr9L._AC_UL320_.jpg">
+                <p class = "item-description"> Wood Bookshelf Walnut Finish </p>
+                <p class = "item-price"> &#X20B9; 14,990</p>
+                <button class = "add2cart" onclick = "addcart('Wood Bookshelf Walnut Finish',14990);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/71D7nxYQZOL._AC_UL320_.jpg">
+                <p class = "item-description"> TV Stand for Set Top Box Wall</p>
+                <p class = "item-price"> &#X20B9; 2,999</p>
+                <button class = "add2cart" onclick = "addcart('TV Stand for Set Top Box Wall',2999);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://m.media-amazon.com/images/I/81+xW49qChL._AC_UL320_.jpg">
+                <p class = "item-description"> Queen Size Bed with Box Storage </p>
+                <p class = "item-price"> &#X20B9; 16,999</p>
+                <button class = "add2cart" onclick = "addcart('Queen Size Bed with Box Storage',16999);">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>

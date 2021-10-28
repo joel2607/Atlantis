@@ -1,0 +1,75 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadindex();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn" onclick="window.location.href='signup.html';">Sign Up</button>
+                <button class="btn" onclick="window.location.href='login.html';" id = "login">Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "welcome">
+            <div id = "welcome" class = "welcomeitem"> Welcome! Kindly login.</div>
+            <div class = welcomeitem>
+                <a href = "https://Atlantis.joelajay.repl.co">
+                    <img src = "multimedia/atlantis.png" class = "logo">
+                    <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+                </a>
+                <h4>Atlantis: Where the world loves to shop</h4>
+            </div>
+            
+            <div class = "welcomeitem">Find everything your heart desires at your one stop shop, Atlantis!</div>
+            <div class = "welcomeitem">On your left, you can find a variety of categories that we sell. No compromises on quality, here at Atlantis.</div>
+            <div class = "welcomeitem">For our busy and hardworking generation, Shopping couldn't be any easier</div>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "multimedia/camera.png">
+                <p class = "item-description"> Fujifilm Instax Mini 9 Instant Camera </p>
+                <p class = "item-price"> &#X20B9; 3,965</p>
+                <button class = "add2cart" onclick = "addcart('Fujifilm Instax Mini 9 Instant Camera',3965);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/71%2BRUrLufXL._SL1500_.jpg">
+                <p class = "item-description"> Potted Plant for Home-decor </p>
+                <p class = "item-price"> &#X20B9; 499</p>
+                <button class = "add2cart" onclick = "addcart('Potted Plant for Home-decor',499);">Add to Cart</button>
+            </div>
+        </div>
+                
+            
+    </div>
+  </body>
+</html>

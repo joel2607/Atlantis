@@ -1,0 +1,84 @@
+<a href = "categories/.html"><!DOCTYPE html>
+<html></a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Atlantis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "loadpage();">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquerycookie/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    <div class = "topbar">
+        <div>
+            <a href = "https://Atlantis.joelajay.repl.co">
+                <img src = "multimedia/atlantis.png" class = "logo">
+                <img src="https://images.cooltext.com/5546518.png" width="239" height="75" alt="Atlantis" />
+            </a>
+        </div>
+        <div class = "topbar">
+            <div class = "login" id = "loginbuttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn" >Login</button>
+            </div>
+            <button class="btn" onclick="window.location.href='cart.html';" height = 75>Cart</button>
+        </div>
+    </div>
+    <div class = "mainbody">
+        <div class = "menudiv">
+            <ul class = "menu">
+                <a href = "index.html"><li class = "category">Home</a>
+                <a href = "electronics.html"><li class = "category">Electronics</a>
+                <a href = "fashion.html"><li class = "category">Fashion</a>
+                <a href = "music.html"><li class = "category">Music</a>
+                <a href = "movies.html"><li class = "category">Movies</a>
+                <a href = "shows.html"><li class = "category">TV Shows</a>
+                <a href = "games.html"><li class = "category">Games</a>
+                <a href = "groceries.html"><li class = "category">Groceries</a>
+                <a href = "furniture.html"><li class = "category">Furniture</a>
+                
+            </ul>
+        </div>
+        <div class = "itemdiv">
+            <div class = "item">
+                <img src = "https://images.meesho.com/images/products/41921310/okqww_512.jpg">
+                <p class = "item-description"> Polka dot dress </p>
+                <p class = "item-price"> &#X20B9; 400</p>
+                <button class = "add2cart" onclick = "addcart('Polka Dot Dress',400);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/61Y6jbrPt4L._UL1097_.jpg">
+                <p class = "item-description"> White Cotton Printed Kurti </p>
+                <p class = "item-price"> &#X20B9; 800</p>
+                <button class = "add2cart" onclick = "addcart('White Cotton Printed Kurti',800);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "multimedia/shirtman.png">
+                <p class = "item-description"> Checkered Casual Shirt</p>
+                <p class = "item-price"> &#X20B9; 649</p>
+                <button class = "add2cart" onclick = "addcart('Checkered Casual Shirt',649);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/71RcpZVBOWL._UL1500_.jpg"> 
+                <p class = "item-description"> Pair of Slim Fit Jeggings </p>
+                <p class = "item-price"> &#X20B9; 495</p>
+                <button class = "add2cart" onclick = "addcart('Pair of Slim Fit Jeggings',495);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/311l-U02%2BcL._SX342_SY445_.jpg">
+                <p class = "item-description"> Polarized Aviator Black Sunglasses</p>
+                <p class = "item-price"> &#X20B9; 399</p>
+                <button class = "add2cart" onclick = "addcart('Polarized Aviator Black Sunglasses',399);">Add to Cart</button>
+            </div>
+            <div class = "item">
+                <img src = "https://images-na.ssl-images-amazon.com/images/I/71V6HzCJuAS._UL1500_.jpg">
+                <p class = "item-description"> Nike Adult Precision V Shoes </p>
+                <p class = "item-price"> &#X20B9; 3,499</p>
+                <button class = "add2cart" onclick = "addcart('Nike Adult Precision V Shoes',3499);">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>
